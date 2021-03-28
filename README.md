@@ -2,6 +2,8 @@
 
 Projem default olarak chrome üzerinde çalışmaktadır, projemi localinizde çalıştırmak için kendi chromedriver.exe path'inizi girmeniz gerekmektedir.
 
+Yazılım dili olarak Java kullandım. Dependencyleri Maven kullanarak çektim, testlerimi de TestNG Framework kullanarak yazdım.
+
 Not: Bilgisayarımın düşük performansta olmasından dolayı aynı testi ikinci, üçüncü kez çalıştırdığımda bazılarında sorunsuz çalışırken bazılarında zaman aşımından kaynaklı elementleri locate edememe uyarıları aldığımdan çokca bekleme süreleri eklemek durumunda kaldım. Aşağıda her bir testin başarıyla çalıştığının ekran görüntüleri de paylaştım. Teşekkürler.
 
 ![web_case1](https://user-images.githubusercontent.com/37550541/112765593-8893cd00-9016-11eb-9238-7cef3fbfae92.png)
