@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hurriyetemlak.tests.Case1_Web">
+        <methods>
+          <include name="clickSearch"/>
+          <include name="after"/>
+          <include name="selectBuildingAge"/>
+        </methods>
+      </class> <!-- com.hurriyetemlak.tests.Case1_Web -->
+      <class name="com.hurriyetemlak.tests.Case2_Mobile">
+        <methods>
+          <include name="selectRooms"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.hurriyetemlak.tests.Case2_Mobile -->
+      <class name="com.hurriyetemlak.tests.Case1_Mobile">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="selectCategoryPart"/>
+          <include name="selectBuildingAge"/>
+        </methods>
+      </class> <!-- com.hurriyetemlak.tests.Case1_Mobile -->
+      <class name="com.hurriyetemlak.tests.Case2_Web">
+        <methods>
+          <include name="gotoListingPage"/>
+          <include name="showPhoneNumber"/>
+          <include name="selectRoom"/>
+          <include name="selectSearch"/>
+        </methods>
+      </class> <!-- com.hurriyetemlak.tests.Case2_Web -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
